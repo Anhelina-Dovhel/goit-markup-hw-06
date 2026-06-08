@@ -27,7 +27,7 @@
   gap: 72px;
 }
 .features-item {
-  width: 288px;
+  width: 100%;
 }
 .icon-container {
   display: none;
@@ -54,7 +54,7 @@
     font-size: 36px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-align: left;
     color: #2e2f42;
     margin-bottom: 8px;
     align-items: flex-start;
@@ -71,7 +71,6 @@
   }
   .features-item {
     width: 356px;
-   
   }
   .features-list {
     list-style: none;
@@ -123,11 +122,14 @@
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    text-align: left;
   }
   .features-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-top: 0;
+    font-weight: 400;
+    font-size: 16px;
   }
   .icon-container {
     display: flex;

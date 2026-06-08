@@ -56,11 +56,12 @@
   flex-direction: column;
   gap: 24px;
   margin-bottom: 48px;
+  font-style: normal;
 }
 .mobile-phone {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #4d5ae5;
   text-decoration: none;
@@ -86,6 +87,7 @@
   display: flex;
   gap: 40px;
 }
+
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;

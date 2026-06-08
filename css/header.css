@@ -11,7 +11,6 @@
   line-height: 1.33;
   letter-spacing: 0.03em;
   margin-right: 76px;
-  padding: 16px 0;
 }
 
 .logo-dark {
@@ -67,7 +66,11 @@
 .contact-link:focus {
   color: #404bbf;
 }
-
+.burger-btn {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
 .header {
   box-shadow:
     0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -103,12 +106,13 @@
     justify-content: flex-end;
     align-items: center;
     padding: 0;
+    margin-left: 120px;
+    margin-right: auto;
   }
   .nav-list {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 120px;
   }
   .contact-list {
     display: flex;
@@ -117,11 +121,14 @@
     flex-direction: column;
     gap: 12px;
     padding: 16px 0;
-    padding-left: 118px;
-    padding-right: 16px;
   }
   .contact-link {
     padding: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #434455;
   }
   .burger-btn {
     display: none;
@@ -135,7 +142,7 @@
     line-height: 1.33;
     letter-spacing: 0.03em;
     margin-right: 76px;
-    padding: 16px 0;
+    /* padding: 16px 0; */
   }
   .header-nav {
     margin-right: auto;
@@ -147,5 +154,13 @@
     gap: 40px;
     justify-content: flex-start;
     flex-direction: row;
+  }
+  .contact-link {
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
   }
 }
